@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="container"> 
+           
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <div class="searchIcons">
+                    <img class="seachIcon" src="./img/glass.png" width="20px" height="20px">
+                    <img src="./img/location.png" width="20px" height="20px">   
+                </div>
+            </div>
+            <div class="todayDateAndTime marginContainer">
+                <div class="date">
+                    <span></span>
+                </div>
+                <div class="line"></div>
+                <div class="time">
+                    <span></span>
+                </div>
+            </div>
+            <div class="location marginContainer">
+                <h1 class="city"><h1 class="country"></h1></h1>
+            </div>
+            <div class="weatherDesc">
+                <span></span>
+            </div>
+            <div class="todayInfo marginContainer">
+                <img class="todayIcon"  width="100px" height="100px">
+                <span class="todayTemperature"></span>
+                <div class="todayParams">
+                    <div class="todayParamRow">
+                        <img src="./img/temperature.png" width="20px" height="20px">
+                        <span class="realFell"></span>
+                    </div>
+                    <div class="todayParamRow">
+                        <img src="./img/humidity.png" width="20px" height="20px">
+                        <span class="humidity"></span>
+                    </div>
+                    <div class="todayParamRow">
+                        <img src="./img/wind.png" width="20px" height="20px">
+                        <span class="wind"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="todayInfoMore marginContainer">
+                    <div class="todayInfoMoreParam">
+                        <img src="./img/sun.png" width="20px" height="20px">
+                        <span class="rise">Rise: 03:54 AM</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="todayInfoMoreParam">
+                        <img src="./img/beach.png" width="20px" height="20px">
+                        <span class="set">Set: 09:30 PM</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="todayInfoMoreParam">
+                        <img src="./img/top.png" width="20px" height="20px">
+                        <span class="high">High: 30°</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="todayInfoMoreParam">
+                        <img src="./img/down-arrow.png" width="20px" height="20px">
+                        <span class="low">Low: 20°</span>
+                    </div>
+            </div>
+            <div class="hourlyForecast marginContainer">
+                <h2>3-hour Forecast</h2>
+                <div class="BigLine marginContainer"></div>
+                <div class="hourlyForecastContainer">
+                    <div class="hourlyForeCastItem">
+                        <span class="time">01:00</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">15°</span>
+                    </div>
+                    <div class="hourlyForeCastItem">
+                        <span class="time">04:00</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">15°</span>
+                    </div>
+                    <div class="hourlyForeCastItem">
+                        <span class="time">07:00</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">20°</span>
+                    </div>
+                    <div class="hourlyForeCastItem">
+                        <span class="time">10:00</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">20°</span>
+                    </div>
+                    <div class="hourlyForeCastItem">
+                        <span class="time">13:00</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">25°</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="dailyForecast marginContainer">
+                <h2>Daily Forecast</h2>
+                <div class="BigLine marginContainer"></div>
+                <div class="dailyForecastContainer">
+                    <div class="dailyForeCastItem">
+                        <span class="day">Mon</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">15°</span>
+                    </div>
+                    <div class="dailyForeCastItem">
+                        <span class="day">Tue</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">15°</span>
+                    </div>
+                    <div class="dailyForeCastItem">
+                        <span class="day">Wed</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">20°</span>
+                    </div>
+                    <div class="dailyForeCastItem">
+                        <span class="day">Thu</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">20°</span>
+                    </div>
+                    <div class="dailyForeCastItem">
+                        <span class="day">Thu</span>
+                        <img src="./img/sun.png" width="40px" height="40px">
+                        <span class="temp">20°</span>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
