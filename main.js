@@ -33,7 +33,7 @@ async function getWeather(search){
 }
 
 async function getTime(lat,lng){
-    const apiUrl = `http://api.geonames.org/timezoneJSON?lat=${lat}&lng=${lng}&username=r1mke`
+    const apiUrl = `https://api.geonames.org/timezoneJSON?lat=${lat}&lng=${lng}&username=r1mke`
 
     const method = {
         method: 'GET'
